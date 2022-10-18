@@ -28,7 +28,7 @@ const Formulario = ({ setMonedas }) => {
 
   const [moneda, SelectMonedas] = useSelectMonedas('Elige tu Moneda', monedas);
   const [criptomoneda, SelectCriptomoneda] = useSelectMonedas(
-    'Elige tu _Criptomoneda',
+    'Elige tu Criptomoneda',
     criptos
   );
 
